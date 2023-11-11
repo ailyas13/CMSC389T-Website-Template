@@ -1,15 +1,14 @@
-# cmsc388T-web-template
+# CMSC389T-Web-Template
 
-## Color Family
-Light yellow: #FAF8D4
+This is my personalized Webpage.
 
-Almond: #EBDCCB
 
-Dun: #C3BAAA
+##Customizations:
+-Changed the size of the profile picture.
+-Added projects, their descriptions and documents/links to the websites.
+-Changed GitHub and Twitter icons.
+-Added my GitHub and Twitter accounts.
 
-Taupe Gray: #91818A
 
-Rose quartz: #B2A3B5
-
-## CSS
-.img -> where you can adjust image size
+# Link to Webpage
+GitHub: https://github.com/ailyas13/CMSC389T-Website-Template.git

@@ -1,0 +1,42 @@
+Dataset: Diabetes
+Description: 
+The dataset I used for this project is about diabetes. The components of the dataset are 
+Pregnancies, Ages, Blood Pressure, and Skin Thickness of the patients along with the testing of 
+Glucose, Insulin, and BMI in their bodies. The final component of the dataset is the Outcome 
+that tells if the patient has a diabetes or no. The outcome is based on 0 and 1, where 1 represents 
+the diabetic patient and 0 represents the non-diabetic patient. 
+Pipeline:
+To implement the Machine Learning Classifier on a diabetic health-care dataset, I first, started 
+with preprocessing/ exploratoring the dataset. I checked all the components of the dataset, and 
+see the outcomes for the diabetic patients. I also checked for non-missing values, in case, if there 
+are some and they effect the accuracy of the model predictions. Then, I split the data into training 
+and testing sets. After that, I used 4 components to perform the Dimensionality Reduction on the 
+diabetes model using PCA from the Sklearn.decomposition. I used the RandomForest and 
+LinearSVR classifiers for the diabetes model, and get the accuracies, along with the AUC score 
+and Confusion Matrix to find the False positives and False negatives from the dataset. I showed 
+that visually using seaborn heatmap. At the end, I printed the classification report of the model 
+for better understanding of the model.
+Results:
+Accuracies from Model Classifiers: In Diabetes Dataset, I performed two different types of 
+Model Classifiers to find out the better accuracy for our model. First, I used Random Forest
+Classifier (RF) to train and test our model for diabetes. The accuracy I have from RF is 
+72.727273. Another classifier that I used for the model was Support Vector Machine (SVM) 
+LinearSVC Classifier. The accuracy I received from the LinearSVC is 63.636363. Based on 
+these accuracies results, I think RF Classifier works better for the Diabetes model than the SVC, 
+because the accuracy contained using SVC is lower than the accuracy of the RF. 
+AUC Score: Another prediction that we made on our model is based on AUC Scores. The AUC 
+score, I receieved for the dataset based on our training and testing data sets is approximately 
+0.769216. This score is not very bad, but it is not ideal for our model since the best AUC score is 
+1.0. Therefore, our model will need some improvements in order to perform perfectly. 
+Confusion Matrix: I also used the confusion matrix to train and test our model’s datasets in order 
+to find the False Positive and Negative rates. I calculated the confusion matrix using formulas, and 
+found out the results. The rate for False Positives is 0.23, and the rate for False Negatives is 0.58. 
+Model in the Real World: 
+Using patients’ records, we can build a Random Forest Machine Learning Model to accurately 
+predict whether the patients in the dataset have diabetes or not. We are using Random Forest 
+because it was the best one of all the classifiers that we use in implementing the model. With the 
+use of some application or devices such as glucose meter to monitor the sugar level from the body, 
+will give the accurate glucose level that further will be helpful for the model to predict accurate 
+result for diabetes disease. Basically, this model would be helpful in Diagnosing the Diabetic 
+Disease in the real world. However, the pitfall of this model can be of predicting/generating False 
+Negative or False Positive Rates as we have also seen during the implementation of the model.
