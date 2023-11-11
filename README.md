@@ -12,7 +12,7 @@ This Repo is for my personalized Webpage.
 
 
 # Link to Webpage
-[Click Here][1]
+[Click Here!!][1]
 
 
-[1]: file:///C:/Users/MCstudent/Desktop/CMSC389T/cmsc389T-fall2023/CMSC389T-Website-Template/index.html
+[1]: https://ailyas13.github.io/CMSC389T-Website-Template/
